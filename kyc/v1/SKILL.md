@@ -1,18 +1,21 @@
 ---
-name: client-data-curator-prcr-v3
+name: v1
 description: >
   Use this skill when an agent needs to read, reconcile, and reason over client data
   during a Periodic Review (PR) or Client Review (CR). The agent works with whatever
   documents are available for the client -- no source is assumed to exist. Missing
   sources are recorded explicitly and their impact on review completeness is assessed.
-  Sources span four tiers: Tier 1 independent providers (LexisNexis, Moodys, Orbis),
-  Tier 2 public and approved sources (company registrars, stock exchange filings, news,
-  internal watchlists), Tier 3 client-provided documents (13 document types including
+  
+  Sources span four tiers:
+  - Tier 1: independent providers (LexisNexis, Moodys, Orbis)
+  - Tier 2: public and approved sources (company registrars, stock exchange filings, news,
+  internal watchlists)
+  - Tier 3: client-provided documents (13 document types including
   identity documents, proof of address, company registration, trust deeds, UBO
   declarations, PEP/sanctions self-declarations, source of funds and wealth evidence,
   financial statements, regulatory licences, authorised signatory lists, corporate
-  structure charts, professional reference letters, tax identification documents),
-  and Tier 4 internal records (prior review output, onboarding form).
+  structure charts, professional reference letters, tax identification documents)
+  - Tier 4: internal records (prior review output, onboarding form).
 ---
 
 # Client Data Curator -- PR/CR Process (Partial Document Handling)
